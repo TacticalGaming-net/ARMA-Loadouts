@@ -2,7 +2,7 @@
 
 ARMA Division loadouts can be imported by copying a given script and clicking **Import** in the Arma 3 Virtual Arsenal.
 
-You can find these scripts by clicking your Squad's name on the sidebar.
+You can find these scripts by clicking your Squad's name on the left sidebar.
 
 Watch the following video for an example (instead of downloading text files, simply click the copy button on this site):
 

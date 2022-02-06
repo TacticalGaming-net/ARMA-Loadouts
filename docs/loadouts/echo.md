@@ -4,15 +4,15 @@
 
 To import loadouts, follow these steps:
 
-1. Start Arma 3
+1. Start Arma 3.
 
 2. Enter the Virtual Arsenal by clicking **Tutorials** and then **Virtual Arsenal** from the main menu.
 
-3. Click the drop-down of the loadout you want to import below, and then click the icon in the top-right to copy the loadout's script.
+3. Return to this site, click the drop-down of the loadout you want to import below, and click the icon in the top-right to copy the loadout's script.
 
 4. Re-open the game and click **Import** on the bottom of your screen to import the loadout from the copied script.
 
-5. Click **Save** on the bottom of your screen to save the loadout.
+5. Click **Save** on the bottom of your screen and enter the name of the loadout to save it.
 
 6. Repeat steps **3** to **5** for each loadout. 
 
