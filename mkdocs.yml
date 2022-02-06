@@ -4,9 +4,7 @@ site_author: TGxSilK
 site_url: https://tacticalgaming-net.github.io/arma-loadouts/
 
 nav:
-- Home: index.md
-- Loadouts:
-  - Echo 1-2: loadouts/echo.md
+- Echo 1-2: loadouts/echo.md
 
 markdown_extensions:
 - pymdownx.details
