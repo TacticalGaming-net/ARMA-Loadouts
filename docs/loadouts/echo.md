@@ -14,9 +14,9 @@ To import loadouts, follow these steps:
 
 5. Click **Save** on the bottom of your screen to save the loadout.
 
-6. Repeat steps **3** to **4** for each loadout. 
+6. Repeat steps **3** to **5** for each loadout. 
 
-## Loadouts
+## Loadout Scripts
 
 ??? note "TG Ammo Bearer"
 	```
