@@ -1,6 +1,22 @@
 # Echo 1-2 Loadouts
 
-Click the drop-down for each loadout to see its script. Click the icon to the top-right of the text to quickly copy the loadout.
+## How To Import
+
+To import loadouts, follow these steps:
+
+1. Start Arma 3
+
+2. Enter the Virtual Arsenal by clicking **Tutorials** and then **Virtual Arsenal** from the main menu.
+
+3. Click the drop-down of the loadout you want to import below, and then click the icon in the top-right to copy the loadout's script.
+
+4. Re-open the game and click **Import** on the bottom of your screen to import the loadout from the copied script.
+
+5. Click **Save** on the bottom of your screen to save the loadout.
+
+6. Repeat steps **3** to **4** for each loadout. 
+
+## Loadouts
 
 ??? note "TG Ammo Bearer"
 	```
