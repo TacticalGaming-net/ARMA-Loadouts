@@ -59,3 +59,4 @@ Click the drop-down for each loadout to see its script. Click the icon next to t
 	comment "Set identity";
 	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
 	```
+	
