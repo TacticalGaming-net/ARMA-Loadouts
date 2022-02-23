@@ -168,7 +168,8 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	for "_i" from 1 to 8 do {this addItemToUniform "SmokeShell";};
+	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
+	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "Titan_AT";
@@ -224,10 +225,9 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+	for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	this addItemToVest "HandGrenade";
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
@@ -283,10 +283,9 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+	for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "Titan_AA";};
@@ -340,10 +339,9 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+	for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "Titan_AT";};
@@ -397,10 +395,9 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+	for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "MRAWS_HEAT_F";};
@@ -563,10 +560,9 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
+	for "_i" from 1 to 3 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
 	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	this addItemToBackpack "ToolKit";
