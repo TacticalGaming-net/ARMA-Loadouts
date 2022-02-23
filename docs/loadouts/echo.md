@@ -818,3 +818,57 @@ To import loadouts, follow these steps:
 	comment "Set identity";
 	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
 	```
+
+??? note "TG UAV Operator"
+	```
+	comment "Exported from Arsenal by TGxSilK";
+
+	comment "[!] UNIT MUST BE LOCAL [!]";
+	if (!local this) exitWith {};
+
+	comment "Remove existing items";
+	removeAllWeapons this;
+	removeAllItems this;
+	removeAllAssignedItems this;
+	removeUniform this;
+	removeVest this;
+	removeBackpack this;
+	removeHeadgear this;
+	removeGoggles this;
+
+	comment "Add weapons";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
+	this addPrimaryWeaponItem "acc_pointer_IR";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
+
+	comment "Add containers";
+	this forceAddUniform "U_B_CTRG_Soldier_3_F";
+	this addVest "V_PlateCarrier2_tna_F";
+	this addBackpack "B_UAV_01_backpack_F";
+
+	comment "Add binoculars";
+	this addMagazine "Laserbatteries";
+	this addWeapon "Laserdesignator_01_khk_F";
+
+	comment "Add items to containers";
+	for "_i" from 1 to 5 do {this addItemToUniform "FirstAidKit";};
+	for "_i" from 1 to 5 do {this addItemToVest "SmokeShellRed";};
+	for "_i" from 1 to 5 do {this addItemToVest "SmokeShell";};
+	for "_i" from 1 to 12 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
+	this addHeadgear "H_HelmetB_Enh_tna_F";
+	this addGoggles "G_Balaclava_TI_G_tna_F";
+
+	comment "Add items";
+	this linkItem "ItemMap";
+	this linkItem "ItemCompass";
+	this linkItem "ItemWatch";
+	this linkItem "ItemRadio";
+	this linkItem "B_UavTerminal";
+	this linkItem "NVGogglesB_grn_F";
+
+	comment "Set identity";
+	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
+	```
