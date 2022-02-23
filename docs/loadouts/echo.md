@@ -36,12 +36,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -56,11 +56,9 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 5 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 3 do {this addItemToVest "HandGrenade";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
-	this addItemToVest "SmokeShell";
-	for "_i" from 1 to 22 do {this addItemToBackpack "30rnd_762x39_AK12_Lush_Mag_F";};
-	for "_i" from 1 to 3 do {this addItemToBackpack "HandGrenade";};
-	for "_i" from 1 to 6 do {this addItemToBackpack "SmokeShell";};
+	for "_i" from 1 to 12 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
+	for "_i" from 1 to 8 do {this addItemToBackpack "FirstAidKit";};
+	for "_i" from 1 to 21 do {this addItemToBackpack "30Rnd_556x45_Stanag_Tracer_Red";};
 	this addHeadgear "H_HelmetB_Enh_tna_F";
 	this addGoggles "G_Balaclava_TI_G_tna_F";
 
@@ -94,12 +92,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 	this addWeapon "launch_B_Titan_tna_F";
 	this addSecondaryWeaponItem "Titan_AA";
 
@@ -115,7 +113,7 @@ To import loadouts, follow these steps:
 	comment "Add items to containers";
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "Titan_AA";
 	this addHeadgear "H_HelmetB_Enh_tna_F";
@@ -151,12 +149,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 	this addWeapon "launch_B_Titan_short_tna_F";
 	this addSecondaryWeaponItem "Titan_AT";
 
@@ -170,9 +168,8 @@ To import loadouts, follow these steps:
 	this addWeapon "Laserdesignator_01_khk_F";
 
 	comment "Add items to containers";
-	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
-	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 8 do {this addItemToUniform "SmokeShell";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "Titan_AT";
 	this addHeadgear "H_HelmetB_Enh_tna_F";
@@ -208,12 +205,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 	this addWeapon "launch_MRAWS_green_F";
 	this addSecondaryWeaponItem "MRAWS_HEAT_F";
 
@@ -231,7 +228,7 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	this addItemToVest "HandGrenade";
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "MRAWS_HE_F";};
@@ -269,12 +266,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -290,7 +287,7 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "Titan_AA";};
 	this addHeadgear "H_HelmetB_Enh_tna_F";
@@ -326,12 +323,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -347,7 +344,7 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "Titan_AT";};
 	this addHeadgear "H_HelmetB_Enh_tna_F";
@@ -383,12 +380,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -404,7 +401,7 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "MRAWS_HEAT_F";};
 	for "_i" from 1 to 3 do {this addItemToBackpack "MRAWS_HE_F";};
@@ -549,12 +546,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -571,7 +568,7 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 4 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "FirstAidKit";};
 	for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	this addItemToBackpack "ToolKit";
 	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "MineDetector";
@@ -667,12 +664,12 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12_lush_F";
-	this addPrimaryWeaponItem "muzzle_snds_B_lush_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "muzzle_snds_M";
 	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "75rnd_762x39_AK12_Lush_Mag_F";
-	this addPrimaryWeaponItem "bipod_01_F_khk";
+	this addPrimaryWeaponItem "optic_Arco_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
+	this addPrimaryWeaponItem "bipod_01_F_blk";
 
 	comment "Add containers";
 	this forceAddUniform "U_B_CTRG_Soldier_3_F";
@@ -687,12 +684,11 @@ To import loadouts, follow these steps:
 	for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 5 do {this addItemToUniform "SmokeShellRed";};
 	for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
-	for "_i" from 1 to 4 do {this addItemToVest "75rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 15 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "Medikit";
 	for "_i" from 1 to 5 do {this addItemToBackpack "SmokeShellRed";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "SmokeShell";};
-	this addItemToBackpack "75rnd_762x39_AK12_Lush_Mag_F";
 	this addHeadgear "H_HelmetB_Enh_tna_F";
 	this addGoggles "G_Balaclava_TI_G_tna_F";
 
@@ -726,10 +722,9 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "arifle_AK12U_lush_F";
-	this addPrimaryWeaponItem "acc_pointer_IR";
-	this addPrimaryWeaponItem "optic_Arco_AK_lush_F";
-	this addPrimaryWeaponItem "30rnd_762x39_AK12_Lush_Mag_F";
+	this addWeapon "arifle_SPAR_01_blk_F";
+	this addPrimaryWeaponItem "optic_Holosight_blk_F";
+	this addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
 	this addWeapon "hgun_Pistol_heavy_01_green_F";
 	this addHandgunItem "muzzle_snds_acp";
 	this addHandgunItem "acc_flashlight_pistol";
@@ -742,18 +737,17 @@ To import loadouts, follow these steps:
 	this addBackpack "B_AssaultPack_tna_F";
 
 	comment "Add binoculars";
-	this addMagazine "Laserbatteries";
-	this addWeapon "Laserdesignator_01_khk_F";
+	this addWeapon "Binocular";
 
 	comment "Add items to containers";
 	for "_i" from 1 to 5 do {this addItemToUniform "SmokeShell";};
 	for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
-	for "_i" from 1 to 3 do {this addItemToVest "11Rnd_45ACP_Mag";};
-	for "_i" from 1 to 7 do {this addItemToVest "30rnd_762x39_AK12_Lush_Mag_F";};
+	for "_i" from 1 to 2 do {this addItemToVest "11Rnd_45ACP_Mag";};
 	for "_i" from 1 to 4 do {this addItemToVest "HandGrenade";};
+	for "_i" from 1 to 9 do {this addItemToVest "30Rnd_556x45_Stanag_red";};
 	for "_i" from 1 to 8 do {this addItemToBackpack "FirstAidKit";};
-	this addItemToBackpack "muzzle_snds_B_lush_F";
-	for "_i" from 1 to 8 do {this addItemToBackpack "30rnd_762x39_AK12_Lush_Mag_F";};
+	this addItemToBackpack "muzzle_snds_M";
+	this addItemToBackpack "optic_Arco_blk_F";
 	this addHeadgear "H_HelmetB_Enh_tna_F";
 	this addGoggles "G_Balaclava_TI_G_tna_F";
 
