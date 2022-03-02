@@ -434,7 +434,7 @@ To import loadouts, follow these steps:
 
 	comment "Add weapons";
 	this addWeapon "rhs_weap_m240B";
-	this addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
+	this addPrimaryWeaponItem "rhsusf_acc_su230a_mrds";
 	this addPrimaryWeaponItem "rhsusf_100Rnd_762x51";
 	this addWeapon "rhsusf_weap_m9";
 	this addHandgunItem "rhsusf_mag_15Rnd_9x19_JHP";
