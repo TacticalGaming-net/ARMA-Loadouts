@@ -813,6 +813,60 @@ To import loadouts, follow these steps:
 	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
 	```
 
+??? note "TG Rifleman"
+	```
+	comment "Exported from Arsenal by TGxSilK";
+
+	comment "[!] UNIT MUST BE LOCAL [!]";
+	if (!local this) exitWith {};
+
+	comment "Remove existing items";
+	removeAllWeapons this;
+	removeAllItems this;
+	removeAllAssignedItems this;
+	removeUniform this;
+	removeVest this;
+	removeBackpack this;
+	removeHeadgear this;
+	removeGoggles this;
+
+	comment "Add weapons";
+	this addWeapon "rhs_weap_m4a1_carryhandle";
+	this addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
+	this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+	this addPrimaryWeaponItem "rhsusf_acc_grip1";
+	this addWeapon "rhsusf_weap_m9";
+	this addHandgunItem "rhsusf_mag_15Rnd_9x19_JHP";
+
+	comment "Add containers";
+	this forceAddUniform "rhs_uniform_acu_ucp2";
+	this addVest "rhsusf_spcs_ucp_rifleman_alt";
+	this addBackpack "rhsusf_assault_eagleaiii_ucp";
+
+	comment "Add binoculars";
+	this addWeapon "rhsusf_bino_m24";
+
+	comment "Add items to containers";
+	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
+	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
+	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
+	for "_i" from 1 to 5 do {this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
+
+	comment "Add items";
+	this linkItem "ItemMap";
+	this linkItem "ItemCompass";
+	this linkItem "ItemWatch";
+	this linkItem "rhsusf_radio_anprc152";
+	this linkItem "ItemGPS";
+	this linkItem "rhsusf_ANPVS_15";
+
+	comment "Set identity";
+	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
+	```
+
 ??? note "TG Rifleman CQB"
 	```
 	comment "Exported from Arsenal by TGxSilK";
@@ -968,6 +1022,66 @@ To import loadouts, follow these steps:
 	this addItemToBackpack "rhsusf_bino_lrf_Vector21";
 	for "_i" from 1 to 2 do {this addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33";};
 	this addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_mk211";
+	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
+
+	comment "Add items";
+	this linkItem "ItemMap";
+	this linkItem "ItemCompass";
+	this linkItem "ItemWatch";
+	this linkItem "rhsusf_radio_anprc152";
+	this linkItem "ItemGPS";
+	this linkItem "rhsusf_ANPVS_15";
+
+	comment "Set identity";
+	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
+	```
+
+??? note "TG Squad Leader"
+	```
+	comment "Exported from Arsenal by TGxSilK";
+
+	comment "[!] UNIT MUST BE LOCAL [!]";
+	if (!local this) exitWith {};
+
+	comment "Remove existing items";
+	removeAllWeapons this;
+	removeAllItems this;
+	removeAllAssignedItems this;
+	removeUniform this;
+	removeVest this;
+	removeBackpack this;
+	removeHeadgear this;
+	removeGoggles this;
+
+	comment "Add weapons";
+	this addWeapon "rhs_weap_m4a1_carryhandle_m203";
+	this addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+	this addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
+	this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+	this addWeapon "rhsusf_weap_m9";
+	this addHandgunItem "rhsusf_mag_15Rnd_9x19_JHP";
+
+	comment "Add containers";
+	this forceAddUniform "rhs_uniform_acu_ucp2";
+	this addVest "rhsusf_spcs_ucp_teamleader_alt";
+	this addBackpack "rhsusf_assault_eagleaiii_ucp";
+
+	comment "Add binoculars";
+	this addWeapon "rhsusf_bino_lerca_1200_black";
+
+	comment "Add items to containers";
+	for "_i" from 1 to 3 do {this addItemToUniform "FirstAidKit";};
+	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
+	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+	for "_i" from 1 to 7 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 5 do {this addItemToVest "rhs_mag_M441_HE";};
+	for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
+	for "_i" from 1 to 4 do {this addItemToBackpack "rhs_mag_m713_Red";};
+	for "_i" from 1 to 8 do {this addItemToBackpack "rhs_mag_m714_White";};
+	for "_i" from 1 to 5 do {this addItemToBackpack "rhs_mag_an_m8hc";};
+	for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_m18_green";};
+	for "_i" from 1 to 3 do {this addItemToBackpack "rhs_mag_m18_purple";};
+	for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_m18_red";};
 	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
 	comment "Add items";
