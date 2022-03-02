@@ -111,12 +111,11 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	for "_i" from 1 to 7 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "rhs_fim92_mag";
-	this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
 	comment "Add items";
@@ -169,8 +168,7 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-	for "_i" from 1 to 7 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
@@ -283,12 +281,12 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "rhs_fim92_mag";};
+	this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
 	comment "Add items";
@@ -338,6 +336,7 @@ To import loadouts, follow these steps:
 	this addWeapon "rhsusf_bino_lerca_1200_black";
 
 	comment "Add items to containers";
+	this addItemToUniform "FirstAidKit";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
 	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
@@ -395,13 +394,13 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 5 do {this addItemToBackpack "FirstAidKit";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_maaws_HEAT";};
 	this addItemToBackpack "rhs_mag_maaws_HE";
+	this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
 	comment "Add items";
@@ -414,7 +413,6 @@ To import loadouts, follow these steps:
 
 	comment "Set identity";
 	[this,"RussianHead_5","male01gre"] call BIS_fnc_setIdentity;
-	[this,"TFAegis"] call BIS_fnc_setUnitInsignia;
 	```
 
 ??? note "TG Autorifleman (Heavy)"
@@ -774,7 +772,7 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "rhs_weap_m4a1_carryhandle";
+	this addWeapon "rhs_weap_m4a1_carryhandle_grip";
 	this addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
 	this addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
 	this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
@@ -792,8 +790,7 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-	for "_i" from 1 to 7 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_an_m8hc";};
 	this addItemToBackpack "Medikit";
@@ -831,7 +828,7 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "rhs_weap_m4a1_carryhandle";
+	this addWeapon "rhs_weap_m4a1_carryhandle_grip";
 	this addPrimaryWeaponItem "rhsusf_acc_su230_mrds";
 	this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	this addPrimaryWeaponItem "rhsusf_acc_grip1";
@@ -885,7 +882,7 @@ To import loadouts, follow these steps:
 	removeGoggles this;
 
 	comment "Add weapons";
-	this addWeapon "rhs_weap_m4a1_carryhandle";
+	this addWeapon "rhs_weap_m4a1_carryhandle_grip2";
 	this addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 	this addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	this addPrimaryWeaponItem "rhsusf_acc_grip2";
@@ -902,14 +899,13 @@ To import loadouts, follow these steps:
 
 	comment "Add items to containers";
 	for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_JHP";};
-	this addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 	for "_i" from 1 to 7 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_m67";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_an_m8hc";};
 	for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_mk84";};
 	for "_i" from 1 to 8 do {this addItemToBackpack "FirstAidKit";};
 	this addItemToBackpack "rhsusf_acc_su230_mrds";
-	for "_i" from 1 to 5 do {this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
+	for "_i" from 1 to 6 do {this addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";};
 	for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_an_m8hc";};
 	this addHeadgear "rhsusf_ach_helmet_ESS_ucp_alt";
 
