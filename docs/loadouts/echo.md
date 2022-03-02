@@ -75,9 +75,9 @@ To import loadouts, follow these steps:
 
 ??? note "TG Anti-Air"
 	```
-comment "Exported from Arsenal by TGxSilK";
+	comment "Exported from Arsenal by TGxSilK";
 
-comment "[!] UNIT MUST BE LOCAL [!]";
+	comment "[!] UNIT MUST BE LOCAL [!]";
 	if (!local this) exitWith {};
 
 	comment "Remove existing items";
